@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="starability-basic.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/LunarLogic/starability/master/starability-minified/starability-all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -64,20 +64,6 @@
             display: flex;
             justify-content: center;
         }
-        .starability-basic input[type="radio"] {
-            display: none;
-        }
-        .starability-basic label {
-            font-size: 30px;
-            color: #000000;
-            margin: 0 10px;
-            cursor: pointer;
-        }
-        .starability-basic input[type="radio"]:checked ~ label,
-        .starability-basic input[type="radio"]:hover ~ label,
-        .starability-basic input[type="radio"]:hover ~ label ~ label {
-            color: #FFD700;
-        }
         input[type="submit"] {
             background-color: #007bff;
             color: #fff;
@@ -136,7 +122,6 @@
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="starability.js" defer></script>
     <script>
         $("#submit-form").submit((e) => {
             e.preventDefault();
@@ -157,4 +142,3 @@
     </script>
 </body>
 </html>
-
